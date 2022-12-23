@@ -8,8 +8,9 @@ def jogar():
     acertou = False
 
     while (not enforcou and not acertou):
-        print("Jogando ...")
-        break
+
+        chute = input("Qual a letra?")
+
 
     print("Qual o nível de dificuldade do jogo?")
     dificuldade = int(input("Digite (1) Fácil (2) Médio (3) Difícil: "))
